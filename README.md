@@ -23,6 +23,7 @@
     <a href="https://github.com/pushkaranand07/certificates">
       <img src="https://img.shields.io/badge/Credentials-Certificates-success?style=flat-square&logo=googledocs&logoColor=white" alt="Certificates" />
     </a>
+    <img src="https://img.shields.io/badge/Total%20Commits-187-2563EB?style=flat-square&logo=git&logoColor=white" alt="Total Commits" />
   </p>
 
   <p align="center">

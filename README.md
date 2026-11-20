@@ -45,6 +45,32 @@ I've trained deep learning models that detect synthetic media, built multi-agent
 
 ---
 
+### 💼 Professional Work: Cograd
+
+#### 🎓 Medha Smart Class: AI-Powered Educational Platform
+*Private · Cograd · Oct 2026 – present · 175+ commits*
+
+An AI platform that generates **NCERT-aligned, culturally aware lesson plans and activity plans** for teachers in Classes 1–12. It uses local context from 700+ districts across India.
+
+- Built and extended **RAG pipelines** using vector embeddings over the NCERT curriculum, with GPT-4 and Claude for generation.
+- Worked across the **FastAPI** backend, the **Node.js / Express** auth service and the **React + TypeScript** frontend.
+- Reduced LLM **token usage and cost** across generation flows.
+
+`Python` `FastAPI` `LangChain` `OpenAI` `Claude` `MongoDB Vector Search` `React` `TypeScript` `Tailwind` `Azure` `Docker`
+
+#### 🧑‍🏫 Medha Skills: AI Skills & Career-Readiness Platform
+*Private · Cograd · Oct 2026 – present · 115+ commits (main contributor)*
+
+A spin-off of Medha focused on **student skills and career readiness**, built and maintained largely by me.
+
+- **AI assistant rebuild:** streaming chat with server-side history (search, rename, pin), file uploads, attachment previews, and **in-chat image generation** with full-screen preview and download.
+- **Career Ready module:** interview practice and a **hands-free mock interview** with speech-to-text, AI feedback reports, a daily usage limit, and a feature flag for safe rollout.
+- Tested every feature, including error paths and failure cases, and documented each change.
+
+`Python` `FastAPI` `LLMs` `Speech-to-Text` `Image Generation` `React` `TypeScript` `Cosmos DB (MongoDB)` `Azure`
+
+---
+
 ### 🔭 What I'm Working On
 
 - 📈 **Pulse:** an NSE options research and paper-trading platform with multi-agent LLM analysis, a live option chain and a strict, pre-registered forward test.
@@ -86,7 +112,7 @@ I've trained deep learning models that detect synthetic media, built multi-agent
 ### 💻 Tech Stack & Tooling
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=py,pytorch,tensorflow,sklearn,opencv,fastapi,django,flask,react,ts,js,html,css,tailwind,vite,postgres,mongodb,mysql,sqlite,docker,gcp,vercel,git,github,c,cpp,java,postman&perline=14" alt="Skill Icons" />
+  <img src="https://skillicons.dev/icons?i=py,pytorch,tensorflow,sklearn,opencv,fastapi,django,flask,nodejs,express,react,ts,js,html,css,tailwind,vite,postgres,mongodb,mysql,sqlite,docker,azure,gcp,vercel,git,github,c,cpp,java,postman&perline=14" alt="Skill Icons" />
 </div>
 
 <br/>
@@ -116,6 +142,7 @@ I've trained deep learning models that detect synthetic media, built multi-agent
 ![Django REST](https://img.shields.io/badge/Django_REST-A30000?style=for-the-badge&logo=django&logoColor=white)
 ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
 ![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
 
 #### 🌐 Frontend & UI
@@ -135,6 +162,7 @@ I've trained deep learning models that detect synthetic media, built multi-agent
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Microsoft Azure](https://img.shields.io/badge/Microsoft_Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
 ![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 ![Railway](https://img.shields.io/badge/Railway-0B0D0E?style=for-the-badge&logo=railway&logoColor=white)

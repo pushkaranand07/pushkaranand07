@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="Pushkar Anand, AI/ML Engineer and Backend &amp; Full-Stack Developer">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#070B17"/>
+      <stop offset="0.55" stop-color="#0B1430"/>
+      <stop offset="1" stop-color="#0A1F3D"/>
+    </linearGradient>
+    <linearGradient id="name" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="0.6" stop-color="#E0F2FE"/>
+      <stop offset="1" stop-color="#7DD3FC"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#38BDF8"/>
+      <stop offset="1" stop-color="#818CF8"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#1E293B" stroke-width="1"/>
+    </pattern>
+    <radialGradient id="fade" cx="0.5" cy="0.5" r="0.75">
+      <stop offset="0" stop-color="#fff" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+    <mask id="gridMask"><rect width="1200" height="320" fill="url(#fade)"/></mask>
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="60"/></filter>
+    <clipPath id="round"><rect width="1200" height="320" rx="22"/></clipPath>
+  </defs>
+  <style>
+    .sans { font-family: 'Segoe UI', 'Inter', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif; }
+    .mono { font-family: 'JetBrains Mono', 'Cascadia Code', Consolas, 'SFMono-Regular', Menlo, monospace; }
+    .glowA { animation: drift 9s ease-in-out infinite alternate; }
+    .glowB { animation: drift 11s ease-in-out infinite alternate-reverse; }
+    .cursor { animation: blink 1.1s steps(1) infinite; }
+    @keyframes drift { from { transform: translate(0,0); } to { transform: translate(-40px,25px); } }
+    @keyframes blink { 50% { opacity: 0; } }
+  </style>
+
+  <g clip-path="url(#round)">
+    <rect width="1200" height="320" fill="url(#bg)"/>
+    <rect width="1200" height="320" fill="url(#grid)" mask="url(#gridMask)"/>
+    <circle class="glowA" cx="1010" cy="40" r="170" fill="#0EA5E9" opacity="0.35" filter="url(#blur)"/>
+    <circle class="glowB" cx="140" cy="330" r="170" fill="#6366F1" opacity="0.32" filter="url(#blur)"/>
+    <rect x="0" y="316" width="1200" height="4" fill="url(#accent)"/>
+  </g>
+
+  <!-- Left: identity -->
+  <g class="sans">
+    <g class="fade1">
+      <rect x="80" y="74" width="10" height="10" rx="5" fill="#22C55E"/>
+      <text x="100" y="84" font-size="15" font-weight="600" letter-spacing="3" fill="#7DD3FC">HELLO, I'M</text>
+    </g>
+    <text class="fade2" x="76" y="166" font-size="78" font-weight="800" letter-spacing="-1.5" fill="url(#name)">Pushkar Anand</text>
+    <text class="fade3" x="80" y="210" font-size="25" font-weight="500" fill="#CBD5E1">AI/ML Engineer  ·  Backend &amp; Full-Stack Developer</text>
+
+    <g class="fade4" font-size="14" font-weight="600">
+      <rect x="80"  y="238" width="132" height="34" rx="17" fill="#0EA5E9" fill-opacity="0.12" stroke="#38BDF8" stroke-opacity="0.45"/>
+      <text x="146" y="260" text-anchor="middle" fill="#BAE6FD">LLMs &amp; Agents</text>
+      <rect x="222" y="238" width="72"  height="34" rx="17" fill="#6366F1" fill-opacity="0.14" stroke="#818CF8" stroke-opacity="0.5"/>
+      <text x="258" y="260" text-anchor="middle" fill="#C7D2FE">RAG</text>
+      <rect x="304" y="238" width="150" height="34" rx="17" fill="#0EA5E9" fill-opacity="0.12" stroke="#38BDF8" stroke-opacity="0.45"/>
+      <text x="379" y="260" text-anchor="middle" fill="#BAE6FD">Computer Vision</text>
+      <rect x="464" y="238" width="94"  height="34" rx="17" fill="#6366F1" fill-opacity="0.14" stroke="#818CF8" stroke-opacity="0.5"/>
+      <text x="511" y="260" text-anchor="middle" fill="#C7D2FE">FastAPI</text>
+      <rect x="568" y="238" width="140" height="34" rx="17" fill="#0EA5E9" fill-opacity="0.12" stroke="#38BDF8" stroke-opacity="0.45"/>
+      <text x="638" y="260" text-anchor="middle" fill="#BAE6FD">React · TypeScript</text>
+    </g>
+  </g>
+
+  <!-- Right: code window -->
+  <g class="fade3">
+    <rect x="770" y="62" width="360" height="200" rx="14" fill="#0B1222" fill-opacity="0.92" stroke="#1E3A5F"/>
+    <path d="M770 76a14 14 0 0 1 14-14h332a14 14 0 0 1 14 14v18H770z" fill="#111B2E"/>
+    <circle cx="792" cy="79" r="5.5" fill="#F87171"/>
+    <circle cx="810" cy="79" r="5.5" fill="#FBBF24"/>
+    <circle cx="828" cy="79" r="5.5" fill="#34D399"/>
+    <text x="950" y="84" text-anchor="middle" class="mono" font-size="12" fill="#64748B">pushkar.ts</text>
+    <g class="mono" font-size="14.5">
+      <text x="790" y="126"><tspan fill="#C084FC">const</tspan><tspan fill="#E2E8F0"> pushkar = {</tspan></text>
+      <text x="818" y="152"><tspan fill="#7DD3FC">focus</tspan><tspan fill="#E2E8F0">: [</tspan><tspan fill="#86EFAC">"GenAI"</tspan><tspan fill="#E2E8F0">, </tspan><tspan fill="#86EFAC">"CV"</tspan><tspan fill="#E2E8F0">],</tspan></text>
+      <text x="818" y="178"><tspan fill="#7DD3FC">stack</tspan><tspan fill="#E2E8F0">: [</tspan><tspan fill="#86EFAC">"FastAPI"</tspan><tspan fill="#E2E8F0">, </tspan><tspan fill="#86EFAC">"React"</tspan><tspan fill="#E2E8F0">],</tspan></text>
+      <text x="818" y="204"><tspan fill="#7DD3FC">shipping</tspan><tspan fill="#E2E8F0">: </tspan><tspan fill="#FBBF24">true</tspan><tspan fill="#E2E8F0">,</tspan></text>
+      <text x="790" y="230"><tspan fill="#E2E8F0">};</tspan><tspan class="cursor" fill="#38BDF8"> ▍</tspan></text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-label="Commits by project and languages by code size">
+  <defs>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0F1A33"/>
+      <stop offset="1" stop-color="#0A1224"/>
+    </linearGradient>
+    <linearGradient id="bar" x1="0" x2="1"><stop offset="0" stop-color="#38BDF8"/><stop offset="1" stop-color="#818CF8"/></linearGradient>
+    <clipPath id="langClip"><rect x="640" y="94" width="520" height="12" rx="6"/></clipPath>
+  </defs>
+  <style>
+    text { font-family: 'Segoe UI', 'Inter', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif; }
+    .t { font-size: 20px; font-weight: 700; fill: #F1F5F9; }
+    .s { font-size: 13px; fill: #64748B; }
+    .l { font-size: 15px; font-weight: 500; fill: #CBD5E1; }
+    .v { font-size: 14px; font-weight: 600; fill: #E2E8F0; }
+    .p { font-size: 13px; fill: #64748B; }
+  </style>
+
+  <!-- ───────── Commits by project ───────── -->
+  <rect x="1" y="1" width="588" height="380" rx="16" fill="url(#card)" stroke="#1E2C4A"/>
+  <text x="32" y="48" class="t">Commits by project</text>
+  <text x="32" y="72" class="s">1,023 commits across personal and work repositories</text>
+
+  <g>
+    <text x="32" y="124" class="l">Pulse</text>
+    <rect x="200" y="113" width="250" height="12" rx="6" fill="#1E293B"/>
+    <rect class="grow d1" x="200" y="113" width="120" height="12" rx="6" fill="url(#bar)"/>
+    <text x="558" y="124" text-anchor="end" class="v">491 <tspan class="p">· 48%</tspan></text>
+
+    <text x="32" y="172" class="l">Medha Smart Class</text>
+    <rect x="200" y="161" width="250" height="12" rx="6" fill="#1E293B"/>
+    <rect class="grow d2" x="200" y="161" width="44" height="12" rx="6" fill="url(#bar)"/>
+    <text x="558" y="172" text-anchor="end" class="v">179 <tspan class="p">· 17%</tspan></text>
+
+    <text x="32" y="220" class="l">ForgeGuard</text>
+    <rect x="200" y="209" width="250" height="12" rx="6" fill="#1E293B"/>
+    <rect class="grow d3" x="200" y="209" width="35" height="12" rx="6" fill="url(#bar)"/>
+    <text x="558" y="220" text-anchor="end" class="v">145 <tspan class="p">· 14%</tspan></text>
+
+    <text x="32" y="268" class="l">Medha Skills</text>
+    <rect x="200" y="257" width="250" height="12" rx="6" fill="#1E293B"/>
+    <rect class="grow d4" x="200" y="257" width="29" height="12" rx="6" fill="url(#bar)"/>
+    <text x="558" y="268" text-anchor="end" class="v">118 <tspan class="p">· 12%</tspan></text>
+
+    <text x="32" y="316" class="l">Other (17 repos)</text>
+    <rect x="200" y="305" width="250" height="12" rx="6" fill="#1E293B"/>
+    <rect class="grow d5" x="200" y="305" width="22" height="12" rx="6" fill="url(#bar)"/>
+    <text x="558" y="316" text-anchor="end" class="v">90 <tspan class="p">· 9%</tspan></text>
+  </g>
+  <line x1="32" y1="342" x2="558" y2="342" stroke="#1E293B"/>
+  <text x="32" y="366" class="s"><tspan fill="#E2E8F0" font-weight="600">212</tspan> pull requests  ·  <tspan fill="#E2E8F0" font-weight="600">209</tspan> merged  ·  <tspan fill="#34D399" font-weight="600">98.6%</tspan> merge rate</text>
+
+  <!-- ───────── Languages ───────── -->
+  <rect x="611" y="1" width="588" height="380" rx="16" fill="url(#card)" stroke="#1E2C4A"/>
+  <text x="640" y="48" class="t">Languages</text>
+  <text x="640" y="72" class="s">Share of code by size across my repositories</text>
+
+  <!-- stacked bar: 520px total -->
+  <g clip-path="url(#langClip)">
+    <rect x="640" y="94" width="520" height="12" fill="#64748B"/>
+    <rect class="grow d1" x="640" y="94" width="348" height="12" fill="#3B82F6"/>
+    <rect class="grow d2" x="988" y="94" width="78"  height="12" fill="#FACC15"/>
+    <rect class="grow d3" x="1066" y="94" width="42" height="12" fill="#22D3EE"/>
+    <rect class="grow d4" x="1108" y="94" width="21" height="12" fill="#A78BFA"/>
+    <rect class="grow d5" x="1129" y="94" width="16" height="12" fill="#F472B6"/>
+  </g>
+
+  <g>
+    <circle cx="646" cy="146" r="6" fill="#3B82F6"/><text x="662" y="151" class="l">Python</text>
+    <rect x="800" y="140" width="290" height="10" rx="5" fill="#1E293B"/>
+    <rect class="grow d1" x="800" y="140" width="194" height="10" rx="5" fill="#3B82F6"/>
+    <text x="1166" y="151" text-anchor="end" class="v">67%</text>
+
+    <circle cx="646" cy="186" r="6" fill="#FACC15"/><text x="662" y="191" class="l">JavaScript</text>
+    <rect x="800" y="180" width="290" height="10" rx="5" fill="#1E293B"/>
+    <rect class="grow d2" x="800" y="180" width="44" height="10" rx="5" fill="#FACC15"/>
+    <text x="1166" y="191" text-anchor="end" class="v">15%</text>
+
+    <circle cx="646" cy="226" r="6" fill="#22D3EE"/><text x="662" y="231" class="l">TypeScript</text>
+    <rect x="800" y="220" width="290" height="10" rx="5" fill="#1E293B"/>
+    <rect class="grow d3" x="800" y="220" width="23" height="10" rx="5" fill="#22D3EE"/>
+    <text x="1166" y="231" text-anchor="end" class="v">8%</text>
+
+    <circle cx="646" cy="266" r="6" fill="#A78BFA"/><text x="662" y="271" class="l">PHP</text>
+    <rect x="800" y="260" width="290" height="10" rx="5" fill="#1E293B"/>
+    <rect class="grow d4" x="800" y="260" width="12" height="10" rx="5" fill="#A78BFA"/>
+    <text x="1166" y="271" text-anchor="end" class="v">4%</text>
+
+    <circle cx="646" cy="306" r="6" fill="#F472B6"/><text x="662" y="311" class="l">CSS</text>
+    <rect x="800" y="300" width="290" height="10" rx="5" fill="#1E293B"/>
+    <rect class="grow d5" x="800" y="300" width="10" height="10" rx="5" fill="#F472B6"/>
+    <text x="1166" y="311" text-anchor="end" class="v">3%</text>
+
+    <circle cx="646" cy="346" r="6" fill="#64748B"/><text x="662" y="351" class="l">Other</text>
+    <rect x="800" y="340" width="290" height="10" rx="5" fill="#1E293B"/>
+    <rect class="grow d6" x="800" y="340" width="10" height="10" rx="5" fill="#64748B"/>
+    <text x="1166" y="351" text-anchor="end" class="v">3%</text>
+  </g>
+
+  <text x="600" y="410" text-anchor="middle" class="s">Exact data from the GitHub API · 20 Nov 2026 · includes private repositories and work account</text>
+</svg>

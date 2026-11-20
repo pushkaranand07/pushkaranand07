@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="150" viewBox="0 0 1200 150" role="img" aria-label="1,023 commits, 212 pull requests, 98.6% merge rate, 21 repositories, 2 years on GitHub">
+  <defs>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0F1A33"/>
+      <stop offset="1" stop-color="#0A1224"/>
+    </linearGradient>
+    <linearGradient id="val" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#7DD3FC"/>
+    </linearGradient>
+    <linearGradient id="a1" x1="0" x2="1"><stop offset="0" stop-color="#38BDF8"/><stop offset="1" stop-color="#818CF8"/></linearGradient>
+  </defs>
+  <style>
+    text { font-family: 'Segoe UI', 'Inter', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif; }
+  </style>
+
+  <g class="c">
+    <rect x="1" y="1" width="226" height="146" rx="16" fill="url(#card)" stroke="#1E2C4A"/>
+    <rect x="24" y="1" width="60" height="3" rx="1.5" fill="url(#a1)"/>
+    <text x="114" y="80" text-anchor="middle" font-size="42" font-weight="800" fill="url(#val)">1,023</text>
+    <text x="114" y="114" text-anchor="middle" font-size="13" font-weight="600" letter-spacing="2" fill="#94A3B8">COMMITS</text>
+  </g>
+  <g class="c c2">
+    <rect x="244" y="1" width="226" height="146" rx="16" fill="url(#card)" stroke="#1E2C4A"/>
+    <rect x="267" y="1" width="60" height="3" rx="1.5" fill="url(#a1)"/>
+    <text x="357" y="80" text-anchor="middle" font-size="42" font-weight="800" fill="url(#val)">212</text>
+    <text x="357" y="114" text-anchor="middle" font-size="13" font-weight="600" letter-spacing="2" fill="#94A3B8">PULL REQUESTS</text>
+  </g>
+  <g class="c c3">
+    <rect x="487" y="1" width="226" height="146" rx="16" fill="url(#card)" stroke="#1E2C4A"/>
+    <rect x="510" y="1" width="60" height="3" rx="1.5" fill="url(#a1)"/>
+    <text x="600" y="80" text-anchor="middle" font-size="42" font-weight="800" fill="url(#val)">98.6%</text>
+    <text x="600" y="114" text-anchor="middle" font-size="13" font-weight="600" letter-spacing="2" fill="#94A3B8">PRS MERGED</text>
+  </g>
+  <g class="c c4">
+    <rect x="730" y="1" width="226" height="146" rx="16" fill="url(#card)" stroke="#1E2C4A"/>
+    <rect x="753" y="1" width="60" height="3" rx="1.5" fill="url(#a1)"/>
+    <text x="843" y="80" text-anchor="middle" font-size="42" font-weight="800" fill="url(#val)">21</text>
+    <text x="843" y="114" text-anchor="middle" font-size="13" font-weight="600" letter-spacing="2" fill="#94A3B8">REPOSITORIES</text>
+  </g>
+  <g class="c c5">
+    <rect x="973" y="1" width="226" height="146" rx="16" fill="url(#card)" stroke="#1E2C4A"/>
+    <rect x="996" y="1" width="60" height="3" rx="1.5" fill="url(#a1)"/>
+    <text x="1086" y="80" text-anchor="middle" font-size="42" font-weight="800" fill="url(#val)">2 yrs</text>
+    <text x="1086" y="114" text-anchor="middle" font-size="13" font-weight="600" letter-spacing="2" fill="#94A3B8">ON GITHUB</text>
+  </g>
+</svg>

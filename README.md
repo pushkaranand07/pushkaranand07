@@ -1,9 +1,9 @@
 <!-- ═══════════════════════════════ HEADER ═══════════════════════════════ -->
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,50:1E3A8A,100:0EA5E9&height=210&section=header&text=Pushkar%20Anand&fontSize=58&fontColor=FFFFFF&fontAlignY=36&desc=AI%2FML%20Engineer%20%C2%B7%20Backend%20%26%20Full-Stack%20Developer&descSize=18&descAlignY=58&animation=fadeIn" width="100%" alt="Pushkar Anand" />
+<img src="assets/header.svg" width="100%" alt="Pushkar Anand — AI/ML Engineer · Backend &amp; Full-Stack Developer" />
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=19&duration=3200&pause=900&color=38BDF8&center=true&vCenter=true&width=640&lines=Building+production+AI+systems+end+to+end;LLMs+%E2%80%A2+Multi-Agent+Workflows+%E2%80%A2+RAG;Computer+Vision+%E2%80%A2+Deep+Learning;FastAPI+%E2%80%A2+Django+%E2%80%A2+React+%E2%80%A2+TypeScript" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&duration=3200&pause=900&color=38BDF8&center=true&vCenter=true&width=640&lines=Building+production+AI+systems+end+to+end;LLMs+%E2%80%A2+Multi-Agent+Workflows+%E2%80%A2+RAG;Computer+Vision+%E2%80%A2+Deep+Learning;FastAPI+%E2%80%A2+Django+%E2%80%A2+React+%E2%80%A2+TypeScript" alt="Typing SVG" />
 
 <br/>
 
@@ -14,15 +14,7 @@
 
 <br/><br/>
 
-<table>
-  <tr>
-    <td align="center" width="140"><h3>1,023</h3><sub>Commits</sub></td>
-    <td align="center" width="140"><h3>212</h3><sub>Pull Requests</sub></td>
-    <td align="center" width="140"><h3>98.6%</h3><sub>PRs Merged</sub></td>
-    <td align="center" width="140"><h3>21</h3><sub>Repositories</sub></td>
-    <td align="center" width="140"><h3>94%+</h3><sub>Deepfake Model Accuracy</sub></td>
-  </tr>
-</table>
+<img src="assets/stats.svg" width="100%" alt="1,023 commits · 212 pull requests · 98.6% merged · 21 repositories · 2 years on GitHub" />
 
 </div>
 
@@ -237,51 +229,8 @@ Full-stack anime and manga discovery platform with a resilient multi-tier catalo
 
 ## GitHub Analytics
 
-<sub>Exact figures from the GitHub API, as of <b>20 Nov 2026</b>. They include private repositories and my work account (<code>pushkar-cograd</code>), which third-party stat cards can't see.</sub>
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-
-**Commits by project**
-
-| Project | Commits | Share |
-| :--- | ---: | :---: |
-| Pulse | 491 | ![](https://geps.dev/progress/48) |
-| Medha Smart Class | 179 | ![](https://geps.dev/progress/17) |
-| ForgeGuard | 145 | ![](https://geps.dev/progress/14) |
-| Medha Skills | 118 | ![](https://geps.dev/progress/12) |
-| Other (17 repos) | 90 | ![](https://geps.dev/progress/9) |
-| **Total** | **1,023** | |
-
-</td>
-    <td width="50%" valign="top">
-
-**Languages** <sub>(by code size)</sub>
-
-| Language | Share |
-| :--- | :---: |
-| Python | ![](https://geps.dev/progress/67) |
-| JavaScript | ![](https://geps.dev/progress/15) |
-| TypeScript | ![](https://geps.dev/progress/8) |
-| PHP | ![](https://geps.dev/progress/4) |
-| CSS | ![](https://geps.dev/progress/3) |
-| Other | ![](https://geps.dev/progress/3) |
-
-</td>
-  </tr>
-  <tr>
-    <td colspan="2">
-
-**Pull requests:** **212** opened and **209** merged (**98.6%**). That's 172 opened and 171 merged on my personal account, and 40 opened and 38 merged on my work account.
-
-</td>
-  </tr>
-</table>
-
 <div align="center">
-  <img src="https://streak-stats.demolab.com/?user=pushkaranand07&theme=tokyonight&hide_border=true&background=0D1117" alt="GitHub Streak" /><br/>
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=pushkaranand07&theme=tokyo-night&hide_border=true&area=true&bg_color=0D1117" alt="Contribution Graph" width="100%" />
+  <img src="assets/analytics.svg" width="100%" alt="Commits by project: Pulse 491, Medha Smart Class 179, ForgeGuard 145, Medha Skills 118, other 90. Languages: Python 67%, JavaScript 15%, TypeScript 8%, PHP 4%, CSS 3%, other 3%." />
 </div>
 
 <!-- ═══════════════════════════════ FOOTER ═══════════════════════════════ -->
@@ -293,6 +242,6 @@ Full-stack anime and manga discovery platform with a resilient multi-tier catalo
 **Open to AI/ML and backend engineering opportunities.**<br/>
 Reach me on [LinkedIn](https://www.linkedin.com/in/pushkar-anand-905aa829) or at [regaranand07@gmail.com](mailto:regaranand07@gmail.com).
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0EA5E9,50:1E3A8A,100:0F172A&height=110&section=footer" width="100%" alt="" />
+<img src="assets/footer.svg" width="100%" alt="" />
 
 </div>
